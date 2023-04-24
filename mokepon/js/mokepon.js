@@ -27,11 +27,11 @@ function seleccionarMascotaEnemigo() {
 	let spanMascotaEnemigo = document.getElementById('mascotaEnemigo');
 
 	if (mascotaAleatoria == 1) {
-		// Hipodogue
+		spanMascotaEnemigo.innerHTML = 'Hipodoge';
 	} else if (mascotaAleatoria == 2) {
-		//Capipepo
+		spanMascotaEnemigo.innerHTML = 'Capipepo';
 	} else {
-		//Ratigueya
+		spanMascotaEnemigo.innerHTML = 'Ratigueya';
 	}
 }
 
